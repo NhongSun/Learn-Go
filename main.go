@@ -8,7 +8,6 @@ import (
 )
 
 // start from function main
-// test
 func main() {
 	fmt.Println("Hi Hi Hi")
 
