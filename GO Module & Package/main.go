@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Hi Hi Hi")
 
 	id := uuid.New()
-	fmt.Println(id)
+	fmt.Printf("UUID: %s", id)
 
 	nuzzy.SayHiNuzzy()
 	nuzzy.SayHiBuzzy()
