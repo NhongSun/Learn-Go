@@ -3,7 +3,7 @@ package nuzzy
 import (
 	"fmt"
 
-	"github.com/NhongSun/Learing-Go/nuzzy/internal/secret"
+	"github.com/NhongSun/Learn-Go/nuzzy/internal/secret"
 )
 
 func SayHiNuzzy() {

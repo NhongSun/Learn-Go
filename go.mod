@@ -1,4 +1,4 @@
-module github.com/NhongSun/Learing-Go
+module github.com/NhongSun/Learn-Go
 
 go 1.23.3
 
