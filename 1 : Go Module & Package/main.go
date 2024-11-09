@@ -3,7 +3,7 @@ package main // start from package main
 import (
 	"fmt"
 
-	"github.com/NhongSun/Learn-Go/nuzzy" // import sunshine package
+	"github.com/NhongSun/Learn-Go/nuzzy" // import nuzzy package
 	"github.com/google/uuid"             // import uuid package
 )
 
