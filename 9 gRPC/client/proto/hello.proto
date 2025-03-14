@@ -1,0 +1,24 @@
+// define proto version
+syntax = "proto3";
+
+// define package name
+option go_package = "grpc-hello/proto";
+
+// define service
+service Greeter {
+    rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+// define message
+message HelloRequest {
+    string name = 1;
+}
+
+// define message
+message HelloReply {
+    string message = 1;
+}
+
+// protoc --go_out=. --go-grpc_out=. proto/hello.proto
+// generate a protobuf file (stub) in Go
+// generate hello.pb.go and hello_grpc.pb.go
